@@ -33,7 +33,7 @@ while True:
                 print(f'{kommando} - {kommandoer[kommando]}')
         case '?balance':
             print(f'Du har {balance} på konto.')
-        case ('?dadjoke'):
+        case ('?joke'):
             print(random.choice(dadjokes))
         case ('?gamble'):
             money = input('Hvor mye vil du gamble? ')
